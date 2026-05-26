@@ -1,0 +1,396 @@
+Creează o aplicație web COMPLETĂ și PREMIUM numită „Figuroo Dashboard”.
+
+Aplicația este un dashboard modern pentru administrarea comenzilor de figurine printate 3D vândute pe Vinted și alte platforme.
+
+IMPORTANT:
+- Proiect FULL production-ready
+- Cod CLEAN și organizat
+- UI/UX foarte modern și premium
+- Să arate ca un startup SaaS real
+- Dark mode implicit
+- Responsive PERFECT pentru telefon și PC
+- Design smooth și futurist
+- Ușor de hostat GRATIS
+- Ușor de pus pe GitHub
+- Ușor de deployat pe Vercel
+
+========================================
+STACK OBLIGATORIU
+========================================
+
+Folosește:
+- Next.js 15 (App Router)
+- TypeScript
+- TailwindCSS
+- shadcn/ui
+- Framer Motion
+- Lucide React Icons
+- Supabase
+- Zustand
+- Recharts
+- React Hook Form
+- Zod
+- Sonner Toasts
+- TanStack Table
+
+========================================
+NUMELE APLICAȚIEI
+========================================
+
+Figuroo Dashboard
+
+========================================
+SCOPUL APLICAȚIEI
+========================================
+
+Dashboard pentru administrarea manuală a:
+- comenzilor Vinted
+- produselor printate 3D
+- codurilor AWB
+- QR Easybox
+- deadline-urilor
+- profitului
+- stockului de filament
+- statisticilor
+
+Totul într-un mod ORGANIZAT și SUPER MODERN.
+
+========================================
+AUTENTIFICARE
+========================================
+
+Integrează Supabase Auth:
+- login
+- register
+- logout
+- persistent sessions
+- rute protejate
+
+Design modern pentru auth pages.
+
+========================================
+BAZA DE DATE
+========================================
+
+Creează schema completă Supabase.
+
+Tabela: orders
+- id
+- customer_name
+- product_name
+- product_color
+- material
+- order_price
+- shipping_price
+- filament_cost
+- profit
+- courier
+- awb_code
+- easybox_qr_image_url
+- status
+- deadline
+- notes
+- created_at
+
+Tabela: products
+- id
+- name
+- filament_used_grams
+- default_price
+- image_url
+- created_at
+
+Tabela: inventory
+- id
+- filament_name
+- color
+- grams_left
+- cost_per_kg
+- low_stock_threshold
+- created_at
+
+========================================
+DASHBOARD PRINCIPAL
+========================================
+
+Creează un dashboard EXTREM DE MODERN.
+
+Să conțină:
+- total comenzi
+- comenzi azi
+- venit lunar
+- profit lunar
+- colete active
+- comenzi pending
+- comenzi livrate
+
+Adaugă:
+- cards animate
+- hover effects
+- glow effects
+- gradients
+- grafice animate
+- skeleton loading
+
+Secțiuni:
+- comenzi recente
+- deadline-uri apropiate
+- alertă stock scăzut
+- activitate recentă
+
+========================================
+PAGINA COMENZI
+========================================
+
+Features:
+- adăugare comandă
+- editare comandă
+- ștergere comandă
+- search
+- filtre
+- sortare
+- tabel responsive
+- carduri pe mobile
+
+Fiecare comandă trebuie să afișeze:
+- client
+- produs
+- profit
+- curier
+- AWB
+- deadline
+- status
+- preview QR
+
+========================================
+STATUSURI COMENZI
+========================================
+
+Folosește:
+- Pending
+- Printing
+- Packaging
+- Ready to Ship
+- Shipped
+- Delivered
+
+Cu:
+- culori diferite
+- badge-uri animate
+- iconuri
+
+========================================
+KANBAN BOARD
+========================================
+
+Creează sistem drag-and-drop.
+
+Coloane:
+- Pending
+- Printing
+- Packaging
+- Ready to Ship
+- Shipped
+- Delivered
+
+IMPORTANT:
+- animații smooth
+- responsive
+- foarte satisfying vizual
+
+========================================
+QR / EASYBOX SYSTEM
+========================================
+
+Permite:
+- upload imagine QR
+- preview QR
+- modal mare QR
+- download QR
+- copy AWB
+- open image fullscreen
+
+========================================
+SISTEM NOTIFICĂRI
+========================================
+
+FEATURE FOARTE IMPORTANT.
+
+Când un deadline este:
+- azi
+- mâine
+- depășit
+
+Afișează:
+- notificare roșie
+- toast popup
+- badge
+- alertă pe dashboard
+
+Dacă browserul permite:
+- browser notifications reale
+
+========================================
+PAGINA PRODUSE
+========================================
+
+Features:
+- adăugare produse
+- poze produse
+- gramaj filament
+- preț implicit
+- preview elegant
+
+========================================
+PAGINA INVENTORY
+========================================
+
+Gestionare filament:
+- nume filament
+- culoare
+- grame rămase
+- cost/kg
+- low stock warnings
+
+Adaugă:
+- bare progres animate
+- warning glow
+- statistici stock
+
+========================================
+PAGINA ANALYTICS
+========================================
+
+Analytics avansat:
+- venit total
+- profit total
+- best selling products
+- growth lunar
+- average order value
+- statistici curieri
+- statistici profit
+
+Folosește:
+- Recharts
+- grafice moderne
+- animații
+
+========================================
+SETTINGS PAGE
+========================================
+
+Setări:
+- username
+- currency
+- toggle notificări
+- dark/light mode
+- profile settings
+
+========================================
+DESIGN
+========================================
+
+IMPORTANT:
+Site-ul trebuie să arate:
+- futuristic
+- premium
+- smooth
+- clean
+- modern
+- SaaS startup style
+
+Folosește:
+- glassmorphism
+- blur
+- gradients
+- shadows
+- border glow
+- smooth hover animations
+- animated transitions
+- rounded corners
+- elegant typography
+
+========================================
+SIDEBAR
+========================================
+
+Sidebar modern cu:
+- Dashboard
+- Orders
+- Kanban
+- Products
+- Inventory
+- Analytics
+- Settings
+
+Cu:
+- iconuri
+- active indicator
+- smooth collapse pe mobile
+
+========================================
+TOPBAR
+========================================
+
+Topbar modern:
+- searchbar
+- notificări
+- profile dropdown
+- quick actions
+
+========================================
+MOBILE EXPERIENCE
+========================================
+
+FOARTE IMPORTANT.
+
+Pe telefon:
+- sidebar collapsible
+- touch friendly
+- responsive perfect
+- cards stacked
+- smooth animations
+
+========================================
+EXTRA FEATURES
+========================================
+
+Adaugă:
+- loading skeletons
+- empty states
+- confirmation dialogs
+- page transitions
+- toast notifications
+- reusable components
+- optimistic UI
+- smooth loading
+
+========================================
+DEPLOYMENT
+========================================
+
+Proiectul trebuie să fie:
+- compatibil GitHub
+- compatibil Vercel FREE
+- compatibil Supabase FREE
+
+========================================
+GENEREAZĂ COMPLET
+========================================
+
+Generează:
+- full folder structure
+- toate paginile
+- toate componentele
+- schema SQL Supabase
+- README complet
+- env.example
+- setup instructions
+- clean architecture
+- reusable hooks
+- reusable UI components
+
+IMPORTANT:
+Codul trebuie să fie MODERN, CLEAN și foarte bine organizat.
+
+Rezultatul final trebuie să pară un dashboard SaaS profesional real.
