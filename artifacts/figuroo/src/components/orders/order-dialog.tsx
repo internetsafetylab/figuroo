@@ -43,7 +43,7 @@ export function OrderDialog({
 }) {
   const queryClient = useQueryClient();
   const { toast } = useToast();
-  const [imagePreview, setImagePreview] = useState<string | undefined>(order?.easybox_qr_image_url);
+  const [imagePreview, setImagePreview] = useState<string | undefined>(order?.easybox_qr_image_url ?? undefined);
   
   const createOrder = useCreateOrder();
   const updateOrder = useUpdateOrder();

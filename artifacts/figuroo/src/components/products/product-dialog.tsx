@@ -32,7 +32,7 @@ export function ProductDialog({
 }) {
   const queryClient = useQueryClient();
   const { toast } = useToast();
-  const [imagePreview, setImagePreview] = useState<string | undefined>(product?.image_url);
+  const [imagePreview, setImagePreview] = useState<string | undefined>(product?.image_url ?? undefined);
   
   const createProduct = useCreateProduct();
   const updateProduct = useUpdateProduct();

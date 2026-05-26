@@ -63,7 +63,6 @@ export const translations = {
   // Products
   productsTitle: "Produse",
   newProduct: "Produs nou",
-  productName: "Nume produs",
   defaultPrice: "Preț implicit",
   filamentUsed: "Filament folosit (g)",
   productCreated: "Produs creat cu succes",
